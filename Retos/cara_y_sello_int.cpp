@@ -21,7 +21,7 @@ int main(void) {
     case true:
         cout << "You guessed the face of the coin: " << guess << endl;
         break;
-    case false:
+    default:
         cout << "You didn't guess the face of the coin: " << guess << endl;
         break;
     }

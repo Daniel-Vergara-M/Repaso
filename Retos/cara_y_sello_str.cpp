@@ -3,15 +3,16 @@
 
 using namespace std;
 
-int main(void) {
-    
-    string coin, newCoin, guess = "Heads";
-    int guess = 1;
+int main(void)
+{
+
+    string coin, newCoin, guess = "heads";
     cout << "Choose an option: " << endl
-            << "   - Heads" << endl
-            << "   - Tails" << endl;
+         << "   - Heads" << endl
+         << "   - Tails" << endl;
     cin >> coin;
-    for (int i = 0; i < coin.length(); i++) {
+    for (int i = 0; i < coin.length(); i++)
+    {
         newCoin += tolower(coin[i]);
     }
     switch (newCoin == guess)
