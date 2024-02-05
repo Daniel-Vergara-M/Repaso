@@ -1,12 +1,12 @@
 #include <iostream>
-#include <stdlib.h>
+//#include <stdlib.h>
 
 using namespace std;
 
 int main(void) {
     
     int coin;
-    int guess = rand() % 2;
+    int guess = 1;
     cout << "Choose an option: " << endl
             << "   0. Heads" << endl
             << "   1. Tails" << endl;
