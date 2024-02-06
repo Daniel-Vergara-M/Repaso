@@ -3,3 +3,4 @@
 output/
 *.exe
 methods.h
+Monitoria/*

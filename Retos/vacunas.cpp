@@ -21,8 +21,7 @@ int main(void)
         cout << "Invalid input" << endl;
         return 1;
     }
-    doses = ((babyGrams + 10) / (babyMonths * 10)) * 8;
+    doses = ((babyGrams + 10000) / (babyMonths * 10)) * 8;
     cout << "The baby should receive " << doses << " doses of the vaccine" << endl;
-    system("pause");
     return 0;
 }

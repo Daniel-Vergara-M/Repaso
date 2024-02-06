@@ -8,8 +8,6 @@ int main(void)
     cout << "Enter the temperature in Fahrenheit (As an integer): ";
     cin >> temperatureFahrenheit;
     temperatureCelsius = (temperatureFahrenheit - 32) / 1.8;
-    cout << "The temperature in Celsius is: " << temperatureCelsius << endl;
-
-    system("pause");
+    cout << "The temperature in Celsius is: " << temperatureCelsius << endl;  
     return 0;
 }

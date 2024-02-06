@@ -28,7 +28,7 @@ int main() {
         break;
     default:
         cout << "Invalid option" << endl;
-        system("pause");
+        
         return 1;
     }
     cout << "The cost of your call is: " + to_string(callValue) << endl;

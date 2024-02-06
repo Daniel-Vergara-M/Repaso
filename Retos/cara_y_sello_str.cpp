@@ -24,6 +24,5 @@ int main(void)
         cout << "You didn't guess the face of the coin: " << guess << endl;
         break;
     }
-    system("pause");
     return 0;
 }
