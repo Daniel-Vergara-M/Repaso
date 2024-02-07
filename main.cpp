@@ -1,5 +1,4 @@
 #include <iostream>
-#include "methods.h"
 
 using namespace std;
 
