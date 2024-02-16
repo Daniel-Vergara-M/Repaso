@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    double velocidad_auto1, velocidad_auto2, distancia, tiempo;
+    double velocidad_auto1, velocidad_auto2, distancia;
 
     cout << "Ingrese la velocidad del primer automóvil (en km/h): ";
     cin >> velocidad_auto1;
