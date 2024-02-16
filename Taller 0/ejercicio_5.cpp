@@ -13,7 +13,7 @@ int main()
     cout << "Ingrese la distancia entre las ciudades A y B (en km): ";
     cin >> distancia;
 
-    double tiempo = distancia / (velocidad_auto1 + velocidad_auto2);
+    double tiempo = distancia / (velocidad_auto1 - velocidad_auto2);
 
     cout << "Los automóviles se encuentran después de " << tiempo << " horas.\n";
 
